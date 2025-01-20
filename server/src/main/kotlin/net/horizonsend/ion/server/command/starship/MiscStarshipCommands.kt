@@ -456,7 +456,7 @@ object MiscStarshipCommands : net.horizonsend.ion.server.command.SLCommand() {
 							}
 						}
 					}
-					sender.information("Unset targets of weaponssets containing $weaponSet")
+					sender.information("Unset targets of weaponsets containing $weaponSet")
 				}
 			}
 		}
@@ -681,7 +681,7 @@ object MiscStarshipCommands : net.horizonsend.ion.server.command.SLCommand() {
 			)
 			ship.beacon = null
 		} else {
-			sender.userError("Starship is not near beacon!")
+			sender.userError("Starship is not near a hyperspace beacon!")
 		}
 	}
 
